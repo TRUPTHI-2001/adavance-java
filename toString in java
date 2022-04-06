@@ -1,0 +1,42 @@
+package adavance;
+
+import java.util.*;
+class complex
+{
+	private int r,i;
+	public void accept()
+	{
+	Scanner sc= new Scanner(System.in);
+	r=sc.nextInt();
+	i=sc.nextInt();
+	}
+	/*public void display()
+	{
+		System.out.println(r+"+i"+i);
+	}*/
+	@Override
+	//overriding the to string function inherited from object class
+	public String toString()//non final function
+	{
+		String s;
+		s=r+"+i"+i;
+		return s;
+	}
+}
+public class CMain {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	complex obj1=new complex();
+	
+	//obj1 is just reference
+	obj1.accept();
+	//obj1.display();
+	System.out.println(obj1);//obj1 is user defined instance prints identification of obj
+// expressing the generalized characteristics in inheritance by calling tostring method present in object base class
+	
+	
+	}
+
+
+}
