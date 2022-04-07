@@ -1,0 +1,24 @@
+import java.util.*;
+class comp
+{
+
+		public void accept()
+	{
+		System.out.println(this);
+	}
+
+
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		comp obj1=new comp();
+		System.out.println(obj1);
+		
+	//by object class reference we can call only overriden function like tostring or equals not memeber functions of of other user defined class
+
+}
+
+
